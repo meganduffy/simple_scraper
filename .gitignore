@@ -1,3 +1,10 @@
+# Megan's Stuff
+# Virtual Environment Folder
+bin/
+
+# Pycharm Files
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
