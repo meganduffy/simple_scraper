@@ -10,4 +10,5 @@ More updates to come!
 
 ### DEPENDCIES
 requests for performing HTTP requests
+
 BeautifulSoup4 for handling HTML processing
