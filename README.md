@@ -3,10 +3,13 @@
 I am building a simple python scraper in order to faciliate a future project I have in mind.
 Starting small and getting comfortable with coding again after a long absence is the goal.
 
-At the moment, I am using the following guide and will be building on from there:
+I began this project by working through the following guide:
 [Web Scraping Basics](https://realpython.com/python-web-scraping-practical-introduction/)
 
-More updates to come!
+The files directly linked to this guide are mathematicians_rank.py and quick-html-example.py.
+
+The guide seemed to be outdated as their source page did not appear to be constructed in the same way as it was outlined
+in the article.
 
 ### DEPENDCIES
 requests for performing HTTP requests
