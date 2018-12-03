@@ -48,9 +48,7 @@ def get_names():
     Downloads the page where the list of mathematicians is found
     and returns a list of strings, one per mathematician
 
-    Not sure if this is working as expected, when printing out the result, it looks as though there are several names
-    per string within the list. I believe that the guide I am using is looking at a deprecated version of the page we
-    are scraping - though this remains to be seen!
+
     """
     url = 'http://www.fabpedigree.com/james/mathmen.htm'
     response = simple_get(url)
@@ -59,8 +57,9 @@ def get_names():
         html = BeautifulSoup(response, 'html.parser')
         names = set()
         for li in html.select('li'):
-            for name in li.text.split('/n'):
-                if len(name) > 1:
+            for name in li.text.split('\n'):
+                if len(name) > 0:
+                    # print("NAME: {}".format(name))
                     names.add(name.strip())
         return list(names)
 
