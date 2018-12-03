@@ -1,6 +1,6 @@
 # Megan's Stuff
 # Virtual Environment Folder
-bin/
+simplevenv/
 
 # Pycharm Files
 .idea
