@@ -67,7 +67,7 @@ def get_names():
 def get_hits_on_name(name):
     """
     Accepts a `name` of a mathematician and returns the number
-    of hits that mathematician's Wikipedia page received in the 
+    of hits that mathematician's Wikipedia page received in the
     last 60 days, as an `int`
     """
     # url_root is a template string that is used to build a URL.
