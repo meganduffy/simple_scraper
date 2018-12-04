@@ -19,3 +19,9 @@ BeautifulSoup4 for handling HTML processing
 ### ISSUES
 The issues that I want to resolve are logged within the test suite for the moment.
 Immediately I can tell that it's incredibly slow which needs to be addressed.
+
+### TO DO
+- Abstract the name validation from get_hits_from_name into a different function
+- Write rank_names_by_hit lul ¯\_(ツ)_/¯
+- Write tests for rank_names_by_hit
+- Write the code the tests are for an make eet passss them

@@ -56,7 +56,7 @@ class TestGetHitsOnNames(unittest.TestCase):
         # Ensure that all the spaces within the names are converted to %20 so they can be read by thr browser more easily
         pass
 
-    def test_ascii_characters_within_namesare_accepted_or_converted(self):
+    def test_ascii_characters_within_names_are_accepted_or_converted(self):
         # Some names, such as Poincaré have ascii characters in them - currently these are returning invalid responses
         pass
 
@@ -65,8 +65,15 @@ class TestGetHitsOnNames(unittest.TestCase):
         # Could be as simple as checking for the name and certain other fields
         pass
 
-    def test_if_page_reponse_has_text_we_are_looking_for(self):
+    def test_if_page_response_has_text_we_are_looking_for(self):
         # We have to make sure that the page actually contains what we need in order to get our information, in this case
         # It is the number of visits in 60 days
         pass
 
+    def test_only_numbers_will_be_included_in_hit_number(self):
+        # Ensure that only numbers can make it through to the hit_number variable
+        pass
+
+class TestRankNamesByHit(unittest.TestCase):
+
+    pass
