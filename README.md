@@ -15,3 +15,7 @@ in the article.
 requests for performing HTTP requests
 
 BeautifulSoup4 for handling HTML processing
+
+### ISSUES
+The issues that I want to resolve are logged within the test suite for the moment.
+Immediately I can tell that it's incredibly slow which needs to be addressed.
